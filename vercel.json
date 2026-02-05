@@ -1,0 +1,10 @@
+{
+    "buildCommand": "pip install flask gunicorn",
+    "outputDirectory": ".",
+    "framework": "python",
+    "functions": {
+        "api/app.py": {
+            "runtime": "python3.11"
+        }
+    }
+}
